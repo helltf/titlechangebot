@@ -65,7 +65,7 @@ async function initializeAT(){
 
 async function doChannelAPIUpdate(){
     const options={
-        url:process.env.GET_LIVE + "helltf",
+        url:process.env.GET_LIVE + "kian",
         method:'GET',
         headers:{
             'Client-ID':process.env.CLIENT_ID,
@@ -74,7 +74,7 @@ async function doChannelAPIUpdate(){
     };
         let response= await asyncrequest(options)
         response.data.forEach((streamer)=>{
-            if(streamer.broadcaster_login==="helltf"){
+            if(streamer.broadcaster_login==="kian"){
                 updateChannelProperty({
                             title:streamer.title,
                             game_id:streamer.game_id,
@@ -86,7 +86,7 @@ async function doChannelAPIUpdate(){
 async function updateChannelProperty(channelinfo){
     for(let[key,value] of Object.entries(channelinfo)){
         if(value!=undefined&&channelstatus[key]!=undefined&&value!=channelstatus[key]){
-            notify(key,value,"helltf")
+            notify(key,value,"kian")
             channelstatus[key]=value
         }
     }
@@ -130,7 +130,7 @@ async function notify(key, value,streamer){
     if(channelstatus[`${key}_cooldown`]===true) return
     if (key==="live"&&!value) key ="offline"
     let messages = splitUserMessage(channelList.kian[key],beginmessage)
-    messages.forEach((message)=>{client.say("helltf",`${message}`)})
+    messages.forEach((message)=>{client.say("kian",`${message}`)})
     if(key==="offline") key = "live"
     channelstatus[`${key}_cooldown`] = true
     setTimeout(()=>{
@@ -170,7 +170,7 @@ let channelstatus = {
 }
 const initChannelstatu=async()=>{
     const options={
-        url:process.env.GET_LIVE + "helltf",
+        url:process.env.GET_LIVE + "kian",
         method:'GET',
         headers:{
             'Client-ID':process.env.CLIENT_ID,
@@ -179,7 +179,7 @@ const initChannelstatu=async()=>{
     };
         let response= await asyncrequest(options)
         response.data.forEach((streamer)=>{
-            if(streamer.broadcaster_login==="helltf"){
+            if(streamer.broadcaster_login==="kian"){
                 channelstatus.game_id=streamer.game_id
                 channelstatus.title=streamer.title
                 channelstatus.live=streamer.live
