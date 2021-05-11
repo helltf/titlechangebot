@@ -39,6 +39,7 @@ CLIENT_SECRET=sdadnmk2344nm,yxcak42apd2
 #### After that go into your config.json and add your credentials
 
 If you don't have a oauth Token get one from [here](https://twitchapps.com/tmi/)
+
 ```{"username":"testuser123","password":"ouath:san34msalmND"}```
 
 You don't have to add a channel in that file the bot will automatically join the broadcasters channel
@@ -64,4 +65,4 @@ Command|Description
 !notifyme '<'event'>'| Adds the user to an event change
 !removeme '<'event'>'| Removes the user from an event change
 
-## If everything went well you should now be able to start the bot and get notified on events in you channel'.'
+## If everything went well you should now be able to start the bot and get notified on events in you channel.
