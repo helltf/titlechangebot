@@ -1,9 +1,9 @@
-# Host titlechangebot for your own  :robot:
+# Host titlechangebot for your own channel :robot:
 
 ## TABLE OF CONTENTS
 
--[Installation](#Install)
--[Commands](#Commands)
+- [Installation](#Install)
+- [Commands](#Commands)
 
 ## Install
 
@@ -11,9 +11,11 @@
 
 #### Now clone the files via cmd
 
-> git clone <https://github.com/helltf/titlechangebot>
+```
+git clone <https://github.com/helltf/titlechangebot>
+```
 
-#### After successfully cloning rename the **.envexample** to **.env** and **exampleconfig.json** to **config.json**
+>After successfully cloning rename the __.envexample__ to __.env__ and __exampleconfig.json__ to __config.json__
 
 #### Fill the .env with your preferences like':'
 
