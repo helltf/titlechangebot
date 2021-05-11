@@ -12,7 +12,7 @@
 #### Now clone the files via cmd
 
 ```
-git clone <https://github.com/helltf/titlechangebot>
+git clone https://github.com/helltf/titlechangebot
 ```
 
 >After successfully cloning rename the __.envexample__ to __.env__ and __exampleconfig.json__ to __config.json__
