@@ -64,5 +64,3 @@ Command|Description
 !ping|Bot will return Pong! if it's running
 !notifyme '<'event'>'| Adds the user to an event change
 !removeme '<'event'>'| Removes the user from an event change
-
-## If everything went well you should now be able to start the bot and get notified on events in you channel.
