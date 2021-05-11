@@ -1,0 +1,7 @@
+BROADCASTER=<broadcastername>
+LIVE_EMOTE=<emote for Live event>
+TITLE_EMOTE=<emote for title event>
+GAME_EMOTE=<emote for game event>
+OFFLINE_EMOTE=<emote for offline event>
+CLIENT_ID=<your Client ID>
+CLIENT_SECRET=<your Client Secret>

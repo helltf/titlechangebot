@@ -1,0 +1,1 @@
+{"options":{"debug":false},"connection":{"cluster":"aws","reconnect":true},"identity":{"username":"","password":""},"channels":[]}
