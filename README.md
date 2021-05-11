@@ -12,33 +12,33 @@
 
 #### Fill the .env with your preferences like':'
 
->BROADCASTER=testuser123
->LIVE_EMOTE=PagChomp
->TITLE_EMOTE=AlienPls
->GAME_EMOTE=AlienPls
->OFFLINE_EMOTE=FeelsBadMan
+`BROADCASTER=testuser123`
+`LIVE_EMOTE=PagChomp`
+`TITLE_EMOTE=AlienPls`
+`GAME_EMOTE=AlienPls`
+`OFFLINE_EMOTE=FeelsBadMan`
 
 If you don't  have your ClientID and ClientSecret go to [dev.twitch.tv](https.dev.twitch.tv) and register an application
 
 #### Now fill in your ClientID and ClientSecret
 
->CLIENT_ID=1svndl1n4343n4n1n423nm4
->CLIENT_SECRET=sdadnmk2344nm,yxcak42apd2
+`CLIENT_ID=1svndl1n4343n4n1n423nm4`
+`CLIENT_SECRET=sdadnmk2344nm,yxcak42apd2`
 
 #### After that go into your config.json and add your credentials
 
 If you don't have a oauth Token get one from [here](https://twitchapps.com/tmi/)
->{"username":"testuser123","password":"ouath:san34msalmND"}
+`{"username":"testuser123","password":"ouath:san34msalmND"}`
 
 You don't have to add a channel in that file the bot will automatically join the broadcasters channel
 
 #### No go into a node cmd and type
 
->npm i
->node botstartup.js
+`npm i`
+`node botstartup.js`
 
 If there are some modules missing install them via npm install e.g.
->npm install dotenv
+`npm install dotenv`
 
 ## Commands
 
